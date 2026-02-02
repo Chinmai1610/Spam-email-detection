@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spam Email Detection</title>
+</head>
+
+<body>
+    <h2>📧 Spam Email Detection</h2>
+
+    <form method="POST">
+        <textarea name="email" rows="6" cols="50" placeholder="Enter email text"></textarea>
+        <br><br>
+        <button type="submit">Check</button>
+    </form>
+
+    {% if prediction %}
+        <h3>Result: {{ prediction }}</h3>
+        <p>Confidence: {{ confidence }}%</p>
+    {% endif %}
+</body>
+</html>
