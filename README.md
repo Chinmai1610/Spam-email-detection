@@ -78,8 +78,3 @@ python app.py
 ```
 
 
-
----
-
-**Developed by [Chinmai1610**](https://www.google.com/search?q=https://github.com/Chinmai1610)
-
